@@ -61,7 +61,7 @@ void Network::printDot()
 {
     std::string connectionString;
     std::string usrnstring;
-    bool firstTrue = true;//This is to get the username every first time follow[row] is true is recognized
+    bool firstTrue = true;
     for(int row = 0; row < MAX_USERS; row++)
     {
         for(int col = 0; col < MAX_USERS; col++)
